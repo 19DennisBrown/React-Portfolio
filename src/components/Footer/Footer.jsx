@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className='footer' >
-      © 2024 Dennis Brown || Hawawii Inc. Corp.
+      © 2024 Dennis Brown😎 || Hawawii Inc. Corp.
     </div>
   )
 }

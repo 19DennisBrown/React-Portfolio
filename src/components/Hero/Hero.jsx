@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import pic from '../assets/images/coding2.webp'
+import pic from '../assets/images/coding.avif'
 const Hero = () => {
   return (
     <section className='hero-container'>
