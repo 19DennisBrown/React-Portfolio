@@ -10,11 +10,11 @@ const ContactMe = () => {
       <div className='contact-content'>
         <div style={{ flex:1 }}>
           <ContactInfo
-            iconUrl={`${process.env.PUBLIC_URL}/assets/images/1530186871.svg`}
+            iconUrl={`${process.env.PUBLIC_URL}/assets/images/icons8-python.svg`}
             text='mail@mail.com'
           />
           <ContactInfo
-            iconUrl={`${process.env.PUBLIC_URL}/assets/images/1530186871.svg`}
+            iconUrl={`${process.env.PUBLIC_URL}/assets/images/icons8-css.svg`}
             text='github.com'
           />
         </div>

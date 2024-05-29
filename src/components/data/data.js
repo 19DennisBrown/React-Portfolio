@@ -3,7 +3,7 @@ export const SKILLS = [
 
   {
     title: "Frontend",
-    icon: `${process.env.PUBLIC_URL}/assets/images/1530186871.svg`,
+    icon: `${process.env.PUBLIC_URL}/assets/images/icons8-react.svg`,
     skills: [
       {skill: "HTML5", percentage:"60%"},
       {skill: "CSS3", percentage: "50%"},
@@ -13,14 +13,14 @@ export const SKILLS = [
   },
   {
     title: "MiddleEnd",
-    icon: `${process.env.PUBLIC_URL}/assets/images/1530186871.svg`,
+    icon: `${process.env.PUBLIC_URL}/assets/images/icons8-api-48.png`,
     skills: [
       {skill: "APIs", percentage:"30%"},
     ]
   },
   {
     title: "Backend",
-    icon: `${process.env.PUBLIC_URL}/assets/images/1530186871.svg`,
+    icon: `${process.env.PUBLIC_URL}/assets/images/icons8-node-js.svg`,
     skills: [
       {skill: "Node js", percentage:"20%"},
       {skill: "Javascript", percentage: "60%"},
@@ -31,7 +31,7 @@ export const SKILLS = [
   },
   {
     title: "Mobile dev",
-    icon: `${process.env.PUBLIC_URL}/assets/images/1530186871.svg`,
+    icon: `${process.env.PUBLIC_URL}/assets/images/icons8-react-native.svg`,
     skills: [
       {skill: "React Native", percentage: "30%"},
       {skill: "HTML5", percentage:"80%"},

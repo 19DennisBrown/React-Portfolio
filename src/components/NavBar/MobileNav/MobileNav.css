@@ -13,7 +13,7 @@
 }
 .mobile-menu-container{
   width: 60vw; height: 100vh;
-  background-image: #342864;
+  background-color: #342864;
   padding: 2rem;
 }
 .mobile-menu.active{
