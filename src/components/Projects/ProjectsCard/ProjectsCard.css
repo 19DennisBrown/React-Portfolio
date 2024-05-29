@@ -1,0 +1,42 @@
+
+
+.projects-card{
+  background: #130f2a;
+  border-radius: .65rem;
+  border: 2px solid #6751b9;
+  padding: 1.5rem;
+  margin: 1rem 1rem;
+  text-align: center;
+}
+
+.projects-card h6{
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin-bottom: .7rem;
+}
+
+.project-duration{
+  display: inline-block;
+  font-size: .7rem;
+  font-weight: 400;
+  background: rgba(103, 81, 185, .5);
+  padding: 6px 14px;
+  border-radius: .3rem;
+  margin-bottom: 1.3rem;
+}
+
+.projects-card ul li{
+  list-style: none;
+  font-size: .8rem;
+  font-weight: 400;
+  margin-bottom: .5rem;
+  position: relative;
+}
+.projects-card ul li::after{
+  content: " ";
+  width: .5rem; height: .5rem;
+  background-color: #6751b9;
+  border-radius: .5rem;
+  position: absolute;
+  left: -1.3rem; top: .35rem;
+}
