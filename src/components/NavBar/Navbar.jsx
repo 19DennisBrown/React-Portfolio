@@ -14,9 +14,9 @@ const Navbar = () => {
     setOpenMenu(!openMenu)
   }
   return (
-    <div data-aos="fade-right">
+    <div>
       <MobileNav isOpen={openMenu} toggleMenu={toggleMenu}/>
-      <nav className='nav-wrapper' >
+      <nav className='nav-wrapper'  data-aos="fade-right">
         <div className='nav-content'>
           <img className='logo'src={logo} alt='logo here'/>
           <ul>

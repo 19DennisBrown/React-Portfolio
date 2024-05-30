@@ -8,7 +8,7 @@ const Footer = () => {
     Aos.init({duration:1000})
   })
   return (
-    <div className='footer' data-aos="fade-down" >
+    <div className='footer'  >
       © 2024 Dennis Brown😎 || Hawawii Inc. Corp.
     </div>
   )
