@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './ContactForm.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const ContactForm = () => {
+  useEffect(()=>{
+  Aos.init({duration:1000})
+})
   return (
-    <div className='contact-form-content'>
+    <div className='contact-form-content' data-aos="fade-right">
       <form>
         <div className='name-container'>
           <input type='text' name='firstname' placeholder='eg Johnson'/>

@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './SkillsInfoCard.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const SkillsInfoCard = ({heading, skills}) => {
+    useEffect(()=>{
+    Aos.init({duration:1000})
+  })
   return (
-    <div className='skills-info-card' >
+    <div className='skills-info-card' data-aos="fade-bottom">
       <h6>{heading}</h6>
       <div className='skills-info-content'>
         {skills.map((item, index)=>(

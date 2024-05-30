@@ -1,14 +1,14 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './ContactMe.css'
 import ContactInfo from './ContactInfo/ContactInfoCard'
 import ContactForm from './ContactForm/ContactForm'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+// import Aos from 'aos'
+// import 'aos/dist/aos.css'
 
 const ContactMe = () => {
-  useEffect(()=>{
-   Aos.init({duration:1000})
- })
+//   useEffect(()=>{
+//    Aos.init({duration:1000})
+//  })
   return (
     <section className='contact-container' data-aos="fade-right">
       <h5>contact me</h5>
