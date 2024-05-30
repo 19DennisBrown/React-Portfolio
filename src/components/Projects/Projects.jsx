@@ -1,10 +1,15 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import './Projects.css'
 import { PROJECTS } from '../data/data'
 import ProjectsCard from './ProjectsCard/ProjectsCard'
 import Slider from "react-slick"
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Projects = () => {
+   useEffect(()=>{
+    Aos.init({duration:1000})
+  })
   const sliderRef = useRef()
   const settings ={
     dots: false,
@@ -30,7 +35,7 @@ const Projects = () => {
     sliderRef.current.slickPrev()
   }
   return (
-    <section className='projects-container'>
+    <section className='projects-container' data-aos="fade-right">
       <h5>projects involved</h5>
       <div className='project-content'>
         <div className='arrow-right' onClick={sliderRight}>

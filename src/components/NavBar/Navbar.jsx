@@ -1,15 +1,20 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import MobileNav from './MobileNav/MobileNav'
 import logo from '../assets/images/icons8-code-48.png'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Navbar = () => {
+  useEffect(()=>{
+   Aos.init({duration:1000})
+ })
   const [openMenu, setOpenMenu] = useState(false)
   const toggleMenu=()=>{
     setOpenMenu(!openMenu)
   }
   return (
-    <div>
+    <div data-aos="fade-left">
       <MobileNav isOpen={openMenu} toggleMenu={toggleMenu}/>
       <nav className='nav-wrapper' >
         <div className='nav-content'>

@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Hero.css'
 import pic from '../assets/images/coding.avif'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 const Hero = () => {
+  
+  useEffect(()=>{
+    Aos.init({duration:1000})
+  })
   return (
-    <section className='hero-container'>
+    <section className='hero-container' data-aos="fade-left">
       <div className='hero-content'>
         <h2>Building digital experience that inspire</h2>
         <p>
