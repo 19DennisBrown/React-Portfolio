@@ -1,0 +1,202 @@
+
+.navi{
+  text-decoration:none;
+  list-style-type: none;
+  display: flex ;
+  align-items: center;
+  justify-content:space-between;
+  background-color: rgb(68, 68, 116);
+  margin-top: 0;
+  padding: 10px ;
+  border-radius: 12px;
+}
+.links{
+  width: 40vw;
+  display: flex ;
+  align-items: center;
+  justify-content:space-around;
+  list-style: none;
+  font-size:'20px'
+}
+.links li{
+  padding: 2px 8px;
+  border-radius: 8px;
+}
+.links li:hover{
+  transition:all .5s linear ;
+  background-color: rgb(31, 30, 30);
+}
+
+.link_header{
+  color: pink;
+  background-color: yellow;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 100px; margin-top: 0;
+  padding: 30px 0px;
+}
+.btn_container{
+  /* display: none; */
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 0;
+  top: 16%;
+  z-index: 12;
+}
+.menu_word{
+ display: none;
+}
+.navBtn{
+  background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 26px;
+}
+
+/* REACT HOOKS */
+.hookContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px auto;
+  width: 70vw;
+  box-shadow: -10px -10px 22px rgb(119, 116, 116);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+.hookForm{
+  padding: 30px; margin-bottom: 30px;
+  box-shadow: 10px 5px 22px rgb(32, 32, 32);
+  border-radius: 13px;
+}
+.hookInputContainer{
+  background-color: white;
+  padding: 8px 10px;
+  border-radius: 12px;
+}
+.hookForm input{
+  outline:none;
+  padding: 4px 12px; margin: 0px 5px;
+  border: none;
+  background-color: transparent;
+}
+.hookForm .submit{
+  background-color: grey;
+  border-radius: 12px;
+}
+.hookRules{
+  padding: 20px;
+}
+/* end */
+/* REACT USE STATE */
+.useState{
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 30px; margin: 0 auto;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  /* position: relative; */
+  width: 50vw;
+}
+.usestate_container{
+  /* position: absolute; */
+  background-color: grey;
+  padding: 20px;
+  border-radius: 20px;
+}
+.usestate_container span{
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.usestate_container .form{
+  margin: 12px; padding: 0px 20px;padding-right: 0px;
+  border-radius: 24px;
+  background-color: pink;
+}
+.usestate_container button{
+  border: none; outline: none;
+  padding: 5px 13px; margin-left: 5px;
+  border-radius: 10px;
+  background-color: orange;
+  color: red;
+}
+/* end */
+@media screen and (max-width:700px) {
+   .link_header{
+    background-color: green;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 100px;
+   }
+  
+   .links{
+    border-top: 2px solid red;
+    flex-direction: column;
+    margin: 0; padding: 0;
+    height:50%;
+    background-color: linear-gradient();
+   }
+   /* NAVIGATION BUTTONS */
+   .navBtn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 26px;
+   }
+   .navHide{
+    background-color: green;
+    display: none;
+   }
+   .btn_container{
+    display:flex;
+    margin-top:0; margin-bottom: 50px;
+    background-image: linear-gradient( green 10%, orange);
+    align-items: center;
+    height: 30px;
+   }
+   
+/* REACT HOOKS */
+.hookContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px auto;
+  width: 90vw;
+}
+.hookForm{
+  padding: 10px; margin-bottom: 30px;
+  width: 60%;
+}
+.hookInputContainer{
+  background-color: white;
+  padding: 8px 10px;
+}
+.hookForm input{
+  outline:none;
+  padding: 4px 12px; margin: 0px 5px;
+  border: none;
+  background-color: transparent;
+}
+.hookForm .submit{
+  background-color: grey;
+  border-radius: 12px;
+}
+/* end */
+/* REACT USE STATE */
+.usestate_container .form{
+  margin: 12px; padding: 20px;
+  border-radius: 18px;
+  width: 100%;
+}
+.usestate_container{
+  padding: 20px; padding-bottom: 0px;
+}
+/* end */
+}

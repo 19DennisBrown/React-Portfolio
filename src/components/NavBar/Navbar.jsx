@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import {Link} from 'react-router-dom'
 import './Navbar.css'
 import MobileNav from './MobileNav/MobileNav'
 import logo from '../assets/images/icons8-code-48.png'
@@ -21,7 +22,9 @@ const Navbar = () => {
           <img className='logo'src={logo} alt='logo here'/>
           <ul>
           <li>
-              <p className='menu-item'>Home</p>
+              <p  className='menu-item'>Home</p>
+              
+              
             </li>
             <li>
               <p className='menu-item'>Skills</p>
